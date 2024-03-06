@@ -4,7 +4,7 @@
   "description": "Landing page for natours.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass sass/main.scss  css/main.css",
+    "compile:sass": "sass sass/main.scss  css/main.css -w",
     "watch:sass": "sass --watch --no-source-map --style=expanded sass/main.scss:css/main.css",
     "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
     "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
