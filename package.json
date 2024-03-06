@@ -1,0 +1,27 @@
+{
+  "name": "TravelAgencyProject",
+  "version": "1.0.0",
+  "description": "Landing page for natours.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss  css/main.css",
+    "watch:sass": "sass --watch --no-source-map --style=expanded sass/main.scss:css/main.css",
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quick-Developer/Travel-Agency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quick-Developer/Travel-Agency/issues"
+  },
+  "homepage": "https://github.com/Quick-Developer/Travel-Agency#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.66.1"
+  }
+}
